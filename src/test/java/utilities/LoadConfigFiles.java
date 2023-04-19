@@ -17,7 +17,7 @@ public class LoadConfigFiles {
         InputStream inputStream = null;
 
         try{
-            String propFileName = "config.properties";
+            String propFileName = "config.properties.properties";
             inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
             if(inputStream != null) {
                 prop.load(inputStream);
