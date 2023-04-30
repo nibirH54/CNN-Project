@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ActOn {
 
-    public static BrowserActions browser(WebDriver driver, By password){
+    public static BrowserActions browser(WebDriver driver){
         return new BrowserActions(driver);
     }
 

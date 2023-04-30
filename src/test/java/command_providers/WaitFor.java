@@ -11,8 +11,8 @@ import java.time.Duration;
 
 public class WaitFor {
     private static final Logger LOGGER = LogManager.getLogger(WaitFor.class);
-    private WebDriver driver;
-    private By locator;
+    public WebDriver driver;
+    public By locator;
 
     public WaitFor(WebDriver driver, By locator){
         this.driver = driver;

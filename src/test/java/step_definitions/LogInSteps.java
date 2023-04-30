@@ -28,7 +28,7 @@ public class LogInSteps {
     //Precondition
     @Given("^a user is on the login page$")
     public void navigateToLoginPage(){
-        ActOn.browser(driver, Password).openBrowser(ReadConfigFiles.getPropertyValues("TestAppURL"));
+        ActOn.browser(driver).openBrowser(ReadConfigFiles.getPropertyValues("TestAppURL"));
         LOGGER.info("User is in the login page");
     }
 
