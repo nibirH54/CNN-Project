@@ -6,7 +6,7 @@ Given a user is on the Login Page
 @positive_test
 Scenario: Check login is successful with valid credentials
   When user enters username "Shafin" and password "12345"
-  And click on logIn button
+  And click on login button
   Then user is Navigated to home page
 
 @negative_test

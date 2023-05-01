@@ -1,10 +1,10 @@
 Feature: Mortgage Calculator
 
   @CalculateApr
-  Scenario: Calculate Real Apr Rate Test
-    Given user is on mortgage calculator home page
+  Scenario: Calculate Real Apr Rate
+    Given user is in mortgage calculator home page
     And user navigate to Real Apr page
     When user clicks on calculate button upon entering the data
     |HomePrice|DownPayment|InterestRate|
-    |20000     |15000     |3           |
+    |200000   |15000      |3           |
     Then the real apr rate is "3.139%"
