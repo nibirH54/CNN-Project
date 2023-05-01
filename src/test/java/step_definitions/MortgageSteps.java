@@ -46,7 +46,7 @@ public class MortgageSteps {
         LOGGER.info("Real APR Rate is calculated upon entering the data");
     }
 
-    @Then("^the real apr rate is (.+?)$")
+    @Then("^the real apr rate is \"(.+?)\"$")
     public void validateRealAprRate(String realApr) {
         new RealApr(driver)
                 .validateRealAprRate(realApr);

@@ -11,8 +11,9 @@ import utilities.DriverFactory;
 
 
 public class Hooks {
-    public static WebDriver driver;
     private final Logger LOGGER =  LogManager.getLogger(this.getClass().getName());
+    public static WebDriver driver;
+
 
     @Before
     public void initialize(Scenario scenario){
@@ -21,7 +22,7 @@ public class Hooks {
     }
 
     @After
-    public void tearDown(Scenario scenario){
+    public void cleanup(Scenario scenario){
         DriverFactory.getInstance().removeDriver();
         LOGGER.info(String.format("-------------End Scenario: %s----------------", scenario.getName()));
 

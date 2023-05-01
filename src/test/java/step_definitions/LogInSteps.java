@@ -44,7 +44,7 @@ public class LogInSteps {
         ActOn.element(driver, Login).click();
         LOGGER.info("User clicked on the Login button");
     }
-    @When("^user clcik on login button upon entering credentials$")
+    @When("^user click on login button upon entering credentials$")
     public void userClickOnLogInUponEnteringCredentials(DataTable table){
         List<Map<String,String>> data = table.asMaps(String.class, String.class);
         for (Map<String, String>cells:data){
@@ -54,12 +54,12 @@ public class LogInSteps {
         }
 
     }
-    @Then("^User is navigated to home page$")
+    @Then("^user is navigated to home page$")
     public void validateUserLoggedinSuccessfully(){
         AssertThat.elementAssertions(driver, LogOut).elementIsDisplayed();
         LOGGER.info("User is in the HomePage");
     }
-    @Then("^User is failed to login$")
+    @Then("^user is failed to login$")
     public void validateUserIsFailedToLogin(){
         AssertThat.elementAssertions(driver, InvalidPassword).elementIsDisplayed();
         LOGGER.info("User is still on the login Page");
