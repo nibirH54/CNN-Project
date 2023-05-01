@@ -1,7 +1,7 @@
 @SmokeTest @RegressionTest @LogInTest
 Feature: Test LogIn Functionalities
 BackGround:
-Given a user is on the Login Page
+Given a user is on the login Page
 
 @positive_test
 Scenario: Check login is successful with valid credentials

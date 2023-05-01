@@ -13,18 +13,18 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class ScreenCapture {
-    private static Logger LOGGER = LogManager.getLogger(ScreenCapture.class);
+    private static final Logger LOGGER = LogManager.getLogger(ScreenCapture.class);
 
-    public static void  getScreenShot(WebDriver driver){
-
+    public static void getScreenShot(WebDriver driver) {
+        // Generating the filename with timestamp
         String fileName = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(new Date());
 
         File screenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(screenshotFile, new File("screenshot/" + fileName + ".png"));
-        }catch (Exception e){
-            LOGGER.error("Screensot exception is: " + e.getMessage());
+        } catch (Exception e) {
+            LOGGER.error("Screenshot Exception is: " + e.getMessage());
         }
-
     }
 }
+

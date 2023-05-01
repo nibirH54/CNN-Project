@@ -9,18 +9,18 @@ public class ReadConfigFiles {
 
     private static final Logger LOGGER = LogManager.getLogger(ReadConfigFiles.class);
 
-    public static String getPropertyValues(String propName){
+    public static String getPropertyValues(String propName) {
         Properties prop;
         String propValue = null;
         try {
             prop = new LoadConfigFiles().readPropertyValues();
-                propValue = prop.getProperty(propName);
-            }catch(Exception e){
-                LOGGER.error("Exception is : " + e.getMessage());
-            }
-            return propValue;
+            propValue = prop.getProperty(propName);
+        } catch (Exception e) {
+            LOGGER.error("Exception is: " + e.getMessage());
         }
+        return propValue;
     }
+}
 
 
 

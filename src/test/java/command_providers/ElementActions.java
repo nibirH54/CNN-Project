@@ -18,51 +18,50 @@ public class ElementActions {
     private By locator;
     private WebDriver driver;
 
-    public ElementActions(WebDriver driver, By locator){
+    public ElementActions(WebDriver driver, By locator) {
         this.driver = driver;
         this.locator = locator;
     }
-    public WebElement getElement(){
+
+    public WebElement getElement() {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         WebElement element = null;
         try {
-            element= driver.findElement(locator);
-        }catch (Exception e){
+            element = driver.findElement(locator);
+        } catch (Exception e) {
             ScreenCapture.getScreenShot(driver);
-            LOGGER.error("Element Exception for the Locator: " + "and exception is: " + e.getMessage());
+            LOGGER.error("Element Exception for the locator: " + locator + " and exception is: " + e.getMessage());
         }
         return element;
     }
-    public ElementActions click(){
+
+    public ElementActions click() {
         getElement().click();
         return this;
     }
-    public ElementActions setValue(String value){
+
+    public ElementActions setValue(String value) {
         getElement().clear();
         getElement().sendKeys(value);
         return this;
     }
 
-    public  ElementActions selectValue(String value){
+    public ElementActions selectValue(String value) {
         Select select = new Select(getElement());
         select.selectByVisibleText(value);
         return this;
     }
-    public ElementActions mouseHover(){
+
+    public ElementActions mouseHover() {
         Actions actions = new Actions(driver);
         actions.moveToElement(getElement()).perform();
         return this;
     }
-    public String getTextValue(){
+
+    public String getTextValue() {
         return getElement().getText();
     }
 
-    public WaitFor waitForElementToBeVisible(){
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        return this.waitForElementToBeVisible();
+    public void waitForElementToBeVisible() {
     }
-
-
-
 }

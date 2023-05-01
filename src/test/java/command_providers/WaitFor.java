@@ -11,26 +11,26 @@ import java.time.Duration;
 
 public class WaitFor {
     private static final Logger LOGGER = LogManager.getLogger(WaitFor.class);
-    public WebDriver driver;
-    public By locator;
+    private WebDriver driver;
+    private By locator;
 
-    public WaitFor(WebDriver driver, By locator){
+    public WaitFor(WebDriver driver, By locator) {
         this.driver = driver;
         this.locator = locator;
     }
 
-    public WaitFor waitForElementToBeVisible(){
+    public WaitFor waitForElementToBeVisible() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         return this;
     }
-    public WaitFor fixWait(long ms){
+
+    public WaitFor fixWait(long ms) {
         try {
             Thread.sleep(ms);
-        }catch (InterruptedException e){
-            LOGGER.error("Wait Exception is :" + e.getMessage());
+        } catch (InterruptedException e) {
+            LOGGER.error("Wait Exception is: " + e.getMessage());
         }
         return this;
     }
-
 }

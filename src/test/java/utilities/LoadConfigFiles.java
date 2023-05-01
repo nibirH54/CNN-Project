@@ -15,22 +15,20 @@ public class LoadConfigFiles {
     public Properties readPropertyValues() throws IOException {
         Properties prop = new Properties();
         InputStream inputStream = null;
-
-        try{
-            String propFileName = "config.properties.properties";
+        try {
+            String propFileName = "config.properties";
             inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
-            if(inputStream != null) {
+            if (inputStream != null) {
                 prop.load(inputStream);
-            }else {
-                throw new FileNotFoundException("Properties File " + propFileName + "not found in the classPath");
+            } else {
+                throw new FileNotFoundException("Properties File " + propFileName + " not found in the classpath");
             }
-        }catch (IOException e){
-            LOGGER.error("Exception is : " + e.getMessage());
-        }finally {
+        } catch (FileNotFoundException e) {
+            LOGGER.error("Exception is: " + e.getMessage());
+        } finally {
             inputStream.close();
         }
         return prop;
     }
-
 
 }
