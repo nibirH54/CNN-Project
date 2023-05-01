@@ -17,7 +17,7 @@ Scenario: Check login is unsuccessful with invalid credentials
 
 @dataDriven_test
 Scenario Outline: Check login is successful with valid credentials for multiple users
-  When user enters "<username>" and password "<password>"
+  When user enters username "<username>" and password "<password>"
   And click on login Button
   Then user is navigated to login
 
