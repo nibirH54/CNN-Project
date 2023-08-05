@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd495c16-e5b8-4c8f-a93c-5da3f1b9e3e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/test/java/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/cucumber-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/cucumber-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/command_providers/ElementActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/command_providers/ElementActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/command_providers/WaitFor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/command_providers/WaitFor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/step_definitions/LogInSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/step_definitions/LogInSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/step_definitions/MortgageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/step_definitions/MortgageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/utilities/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/utilities/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/utilities/LoadConfigFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/utilities/LoadConfigFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/utilities/ReadConfigFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/utilities/ReadConfigFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/utilities/ScreenCapture.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/utilities/ScreenCapture.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../target/test-classes/utilities/SqlConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../target/test-classes/utilities/SqlConnector.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SlkJjFmzPh537fuXNz0or3X1Xn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.cnnSearchTestWhenUserNotLoggedIn.testSearchButtonWhenUserNotLoggedIn">
+    <configuration name="cnnGlobalNavTest.clickOnAudioSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN-Automation-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="cnnGlobalNavTest" />
+      <option name="METHOD_NAME" value="clickOnAudioSection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cnnGlobalNavTest.clickOnLiveTvSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN-Automation-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="cnnGlobalNavTest" />
+      <option name="METHOD_NAME" value="clickOnLiveTvSection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cnnGlobalNavTest.clickOnVideoSection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN-Automation-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="cnnGlobalNavTest" />
+      <option name="METHOD_NAME" value="clickOnVideoSection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cnnSearchTestWhenUserLoggedIn.testSearchButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN-Automation-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="cnnSearchTestWhenUserLoggedIn" />
+      <option name="METHOD_NAME" value="testSearchButton" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cnnSearchTestWhenUserNotLoggedIn.testSearchButtonWhenUserNotLoggedIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN-Automation-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="cnnSearchTestWhenUserNotLoggedIn" />
+      <option name="METHOD_NAME" value="testSearchButtonWhenUserNotLoggedIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.cnnSearchTestWhenUserNotLoggedIn.testSearchButtonWhenUserNotLoggedIn" />
+        <item itemvalue="TestNG.cnnSearchTestWhenUserLoggedIn.testSearchButton" />
+        <item itemvalue="TestNG.cnnGlobalNavTest.clickOnLiveTvSection" />
+        <item itemvalue="TestNG.cnnGlobalNavTest.clickOnAudioSection" />
+        <item itemvalue="TestNG.cnnGlobalNavTest.clickOnVideoSection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd495c16-e5b8-4c8f-a93c-5da3f1b9e3e5" name="Changes" comment="" />
+      <created>1689728484968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689728484968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
